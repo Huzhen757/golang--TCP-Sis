@@ -1,0 +1,14 @@
+{
+    "Name":"Zinx-ServerApp-V10",
+    "Version":"tcp4",
+    "Host":"0.0.0.0",
+    "TcpPort":8999,
+    "MaxConn":256,
+    "MaxTransDataSize": 4096,
+    "WorkerPoolSize":16,
+    "MaxTaskSize":1024
+}
+
+
+
+
