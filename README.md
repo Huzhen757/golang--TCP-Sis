@@ -1,7 +1,13 @@
-# golang--TCP-Sis
+# golang-TCP-Server
 # 基于golang实现的轻量级TCP服务器框架
 原作者github地址：https://github.com/aceld/zinx/
-
+## 整体框架
+### 1.zinterface文件夹 -> 各个模块的抽象层接口
+### 2. znet文件夹 -> 每个抽象层接口对应的实现：结构体(实现类)定义，成员方法，初始化方法等
+### 3. utils文件夹 -> 公共组件
+### 4. Client.go 基于框架实现的客户端应用程序
+### 5. Server.go 基于框架实现的服务端应用程序
+#### 6. zinx.json 主配置文件
 
 # golang--TCP-Zinx学习
 # 基于golang实现的轻量级TCP服务器框架
